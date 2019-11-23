@@ -5,7 +5,7 @@ Naive Bayes code from scratch using R programming language. The program has 2 ca
 The dataset used in this project can be downloaded from [MNIST Dataset Website](http://yann.lecun.com/exdb/mnist/)
 
 ## Running The Program
-Before running the program, makse sure the dataset can be loaded properly from the right filename path. Otherwise, change the following [code](https://github.com/liemwellys/NaiveBayes-R-FromScratch/blob/master/Naive%20Bayes.R) in line 12-15 into desired filename path.
+Before running the program, makse sure the dataset can be loaded properly from the right filename path. Otherwise, change the following [code](https://github.com/liemwellys/NaiveBayes-R-FromScratch/blob/master/Naive%20Bayes.R#L12) in line 12-15 into desired filename path.
 
 ```R
 mnist_url <- list(train_images = paste("D:/","train-images-idx3-ubyte.gz", sep = ""),
